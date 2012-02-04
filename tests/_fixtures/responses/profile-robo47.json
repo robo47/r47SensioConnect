@@ -1,0 +1,31 @@
+{
+    "username":"robo47",
+    "display_name":"Benjamin Steininger",
+    "photo":"https:\/\/connect.sensiolabs.com\/profile\/picture\/robo47",
+    "first_name":"Benjamin",
+    "last_name":"Steininger",
+    "company":"None",
+    "country":"Germany",
+    "biography":"Webdeveloper from Germany",
+    "member_since":"2010-07-05T14:27:10+00:00",
+    "website_url":"http:\/\/www.benjamin-steininger.de",
+    "blog_url":"http:\/\/www.benjamin-steininger.de",
+    "blog_feed_url":"http:\/\/benjamin-steininger.de\/feed\/",
+    "facebook_url":null,
+    "github_url":"https:\/\/github.com\/robo47",
+    "twitter_url":"http:\/\/twitter.com\/robo47",
+    "linkedin_url":"http:\/\/www.linkedin.com\/profile?viewProfile=&key=108616188&authToken=0Gdi&authType=name&trk=api*a153113*s161394*",
+    "badges":[{
+        "name":"Commenter",
+        "url":"https:\/\/connect.sensiolabs.com\/badge\/4\/commenter",
+        "picture":"https:\/\/connect.sensiolabs.com\/badge\/image\/symfonydotcom\/commenter"
+    },{
+        "name":"One year membership",
+        "url":"https:\/\/connect.sensiolabs.com\/badge\/12\/one-year-membership",
+        "picture":"https:\/\/connect.sensiolabs.com\/badge\/image\/sensiolabs-connect\/one-year-membership"
+    },{
+        "name":"Noob",
+        "url":"https:\/\/connect.sensiolabs.com\/badge\/1\/noob",
+        "picture":"https:\/\/connect.sensiolabs.com\/badge\/image\/sensiolabs-connect\/noob"
+    }]
+}
