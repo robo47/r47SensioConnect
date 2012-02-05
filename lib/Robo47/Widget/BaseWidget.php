@@ -38,11 +38,11 @@ EOT;
      */
     public function fetchSensioProfileData($username, $cachetime = 500) {
         try {
-            $profile = get_transient(R47SENSIOCONNECTPROFILE_TRANSIENT_PREFIX . $username. '_' . $cachetime);
+            $profile = get_transient(R47SENSIOCONNECT_TRANSIENT_PREFIX . $username. '_' . $cachetime);
             if (!$profile) {
                 $scp = new Robo47_Wordpress_SensioConnect();
                 $profile = $scp->fetchSensioProfile($username);
-                set_transient(R47SENSIOCONNECTPROFILE_TRANSIENT_PREFIX . $username. '_' . $cachetime, $profile, $cachetime);
+                set_transient(R47SENSIOCONNECT_TRANSIENT_PREFIX . $username. '_' . $cachetime, $profile, $cachetime);
             }
         } catch (Exception $e) {
             // ignore anything - just return empty string - we are doing frontend stuff! :)
