@@ -3,14 +3,14 @@ Contributors: robo47
 Tags: head footer
 Requires at least: 3.0
 Tested up to: 3.1
-Stable tag: 0.2.0
+Stable tag: 0.3.0
 License: GPLv2 or later
 
-r47SensioConnect allows you to simply add html to the wp_head and wp_footer hooks
+r47SensioConnect allows you to show profile-information and badges from SensioConnect
 
 == Description ==
 
-r47SensioConnect allows you to simply add html to the wp_head and wp_footer hooks
+r47SensioConnect allows you to show profile-information and badges from SensioConnect
 
 == Installation ==
 
@@ -29,6 +29,10 @@ Activate it
 Add the Widgets where you want
 
 == Changelog ==
+
+= 0.3.0 = 
+
+* README fix
 
 = 0.2.0 = 
 
