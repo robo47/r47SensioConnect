@@ -7,7 +7,7 @@
   Plugin Name: r47SensioConnectProfile
   Plugin URI: http://github.com/robo47/r47SensioConnectProfile
   Description: A simple Plugin for fetching data from SensioConnect
-  Version: 0.1.0
+  Version: 0.2.0
   Author: Benjamin Steininger
   Author URI: http://www.benjamin-steininger.de
   License: GPLv2 or later
