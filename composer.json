@@ -1,0 +1,23 @@
+{
+  "name": "robo47/r47SensioConnect",
+  "description": "WordPress Plugin for showing badges from SensioConnect",
+  "type": "library",
+  "keywords":  [ "sensioConnect", "wordpress"],
+  "homepage": "https://github.com/robo47/r47SensioConnect",
+  "license": "MIT",
+  "authors": [
+  {
+    "name": "Benjamin Steininger",
+    "email": "robo47@robo47.net",
+    "homepage": "http://www.benjamin-steininger.de"
+  }
+  ],
+  "require": {
+    "php": ">=5.2.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Robo47": "lib/"
+    }
+  }
+}
