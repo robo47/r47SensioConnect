@@ -1,3 +1,5 @@
 /build/*
 !/build/phpmd.xml
 /r47SensioConnect.zip
+/composer.phar
+/vendor/
