@@ -23,7 +23,7 @@ class Robo47_Wordpress_SensioConnectTest extends PHPUnit_Framework_TestCase
         $sensioConnect = new Robo47_Wordpress_SensioConnect($http);
         $this->assertSame($http, $sensioConnect->getHttp());
     }
-    
+
     /**
      * @covers  Robo47_Wordpress_SensioConnect::fetchSensioProfile
      */
@@ -33,10 +33,10 @@ class Robo47_Wordpress_SensioConnectTest extends PHPUnit_Framework_TestCase
         $sensioConnect = new Robo47_Wordpress_SensioConnect($http);
         $this->markTestIncomplete('not fully implemented yet');
     }
-    
+
     /**
      *
-     * @return string 
+     * @return string
      */
     protected function getProfileFixture()
     {

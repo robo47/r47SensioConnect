@@ -46,6 +46,7 @@ class Robo47_Wordpress_SensioConnect
     public function setHttp(Robo47_Http_HttpInterface $http)
     {
         $this->http = $http;
+
         return $this;
     }
 
@@ -59,6 +60,7 @@ class Robo47_Wordpress_SensioConnect
         $url = sprintf(self::PROFILEURL, $profile);
         $code = $this->http->fetch($url);
         $json = json_decode($code, true);;
+
         return $json;
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-$classLoader = new r47SensioConnectSplClassLoader(null, dirname(__FILE__) . '/lib/');
+$classLoader = new r47SensioConnectSplClassLoader(null, dirname(__FILE__) . '/src/');
 $classLoader->register();
 
 /**

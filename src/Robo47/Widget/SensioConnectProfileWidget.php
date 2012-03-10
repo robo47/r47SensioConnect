@@ -31,7 +31,7 @@ class Robo47_Widget_SensioConnectProfileWidget extends Robo47_Widget_BaseWidget 
      * @param string $title
      * @param string $username
      * @param integer $count
-     * @param integer $cachetime 
+     * @param integer $cachetime
      */
     public function render($title, $username, $cachetime) {
         echo '<!-- r47SensioConnectProfile | ' . $username . ' cachetime: ' . $cachetime . ' -->';
@@ -39,7 +39,7 @@ class Robo47_Widget_SensioConnectProfileWidget extends Robo47_Widget_BaseWidget 
 
         if ($profile) {
             echo <<<PROFILE
-            
+
 <style type="text/css">
     .rfourseven-sensioconnect-profile span { margin-left: 10px; display: block;}
     .rfourseven-sensioconnect-profile span.label { font-weight: bold; width: 90px; margin-left: 0;}

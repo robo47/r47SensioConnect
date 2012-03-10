@@ -8,6 +8,7 @@ abstract class Robo47_Widget_BaseWidget extends WP_Widget {
         foreach ($this->widget_additional_options() as $option => $description) {
             $instance[$option] = strip_tags($new_instance[$option]);
         }
+
         return $instance;
     }
 
@@ -34,7 +35,7 @@ EOT;
      * @param string $username
      * @param integer $count [currently unused]
      * @param integer $cachetime
-     * @return string 
+     * @return string
      */
     public function fetchSensioProfileData($username, $cachetime = 500) {
         try {
@@ -48,6 +49,7 @@ EOT;
             // ignore anything - just return empty string - we are doing frontend stuff! :)
             return '';
         }
+
         return $profile;
     }
 
